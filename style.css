@@ -1,0 +1,100 @@
+body {
+	background-color: rgb(255,255,255);
+	color : rgb(30,30,30);
+	font-family: 'Merriweather', serif;
+}
+
+h1{ 
+color: #484c7f;
+    font-family: 'Lato', sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 0px;
+	color: #484c7f
+}
+
+h2{
+	color: #ac8daf;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Merriweather', serif;
+	color: #ddb6c6
+}
+
+a:hover {
+	color: #484c7f
+}
+
+/* Custom Design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.profile {
+	border-radius: 40%
+}
+
+.btn-pink {
+	background-color: #f1d4d4;
+	color: #ddb6c6;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-pink:hover {
+	background-color: #484c7f;
+	color: #ac8daf;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #ac8daf
+}
+
+.list-inline i:hover {
+	font-size: 50px;
+	color: #484c7f
+}
+
+/* Design adjustments using id */
+
+#introduction p {
+	margin-bottom: 40px;
+}
